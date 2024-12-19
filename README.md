@@ -7,31 +7,31 @@ This program simulates how a computer operates at a low level<br><br>
 ## Instruction Set
 ___
 For a working example, check the provided .txt file that prints the first 6 numbers in the fibonacci sequence<br>
-**1 *Load***
+**1 *Load***<br>
 This instruction is provided with a register and memory address, and the value in the memory is **loaded into** the register<br>
-**2 *Load***
+**2 *Load***<br>
 This instruction is provided with a register and a bit pattern in **hexa** format, the bit pattern is **loaded into** the register<br>
-**3 *Store***
+**3 *Store***<br>
 This instruction is provided with a register and memory address, and the value of the register is **stored in** the memory, if the memory address given was 0, the value of the register is printed to the screen<br>
-**4 *Move***
+**4 *Move***<br>
 This instruction is provided with two registers (R & S), and the value in R is **moved** into S<Br>
-**5 *Add***
+**5 *Add***<br>
 This instruction is provided with three registers(R, S & T), the result of **adding** S and T (int) is stored in R<br>
-**6 *Add***
+**6 *Add***<br>
 This instruction is provided with three registers(R, S & T), the result of **adding** S and T (float) is stored in R<br>
-**7 *OR***
+**7 *OR***<br>
 This instruction is provided with three registers(R, S & T), the result of **bitwise OR-ing** S and T is stored in R<br>
-**8 *AND***
+**8 *AND***<br>
 This instruction is provided with three registers(R, S & T), the result of **bitwise AND-ing** S and T is stored in R<br>
-**9 *XOR***
+**9 *XOR***<br>
 This instruction is provided with three registers(R, S & T), the result of **bitwise XOR-ing** S and T is stored in R<br>
-**A *ROTATE***
+**A *ROTATE***<br>
 This instruction is provided with a register and a bit pattern in **hexa**, the register is **bitwise rotated** according to the given bit pattern<br>
-**B *Jump***
+**B *Jump***<br>
 This instruction is provided with a register and memory address, if the value in the register **equals** register 0, the program counter jumps to the given memory address<br>
-**C *Halt***
+**C *Halt***<br>
 When reaching this instruction, the machine is signaled to **stop** executing the program<br>
-**D *Jump***
+**D *Jump***<br>
 This instruction is provided with a register and memory address, if the value in the register is **strictly less than** register 0, the program counter jumps to the given memory address <br><br>
 
 ## Compilation
