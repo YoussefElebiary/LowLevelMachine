@@ -8,29 +8,29 @@ This program simulates how a computer operates at a low level<br><br>
 ___
 For a working example, check the provided .txt file that prints the first 6 numbers in the fibonacci sequence<br>
 **1 *Load***
-This instruction is provided with a register and memory address, and the value in the memory is **loaded into** the register
+This instruction is provided with a register and memory address, and the value in the memory is **loaded into** the register<br>
 **2 *Load***
-This instruction is provided with a register and a bit pattern in **hexa** format, the bit pattern is **loaded into** the register
+This instruction is provided with a register and a bit pattern in **hexa** format, the bit pattern is **loaded into** the register<br>
 **3 *Store***
-This instruction is provided with a register and memory address, and the value of the register is **stored in** the memory, if the memory address given was 0, the value of the register is printed to the screen
+This instruction is provided with a register and memory address, and the value of the register is **stored in** the memory, if the memory address given was 0, the value of the register is printed to the screen<br>
 **4 *Move***
-This instruction is provided with two registers (R & S), and the value in R is **moved** into S
+This instruction is provided with two registers (R & S), and the value in R is **moved** into S<Br>
 **5 *Add***
-This instruction is provided with three registers(R, S & T), the result of **adding** S and T (int) is stored in R
+This instruction is provided with three registers(R, S & T), the result of **adding** S and T (int) is stored in R<br>
 **6 *Add***
-This instruction is provided with three registers(R, S & T), the result of **adding** S and T (float) is stored in R
+This instruction is provided with three registers(R, S & T), the result of **adding** S and T (float) is stored in R<br>
 **7 *OR***
-This instruction is provided with three registers(R, S & T), the result of **bitwise OR-ing** S and T is stored in R
+This instruction is provided with three registers(R, S & T), the result of **bitwise OR-ing** S and T is stored in R<br>
 **8 *AND***
-This instruction is provided with three registers(R, S & T), the result of **bitwise AND-ing** S and T is stored in R
+This instruction is provided with three registers(R, S & T), the result of **bitwise AND-ing** S and T is stored in R<br>
 **9 *XOR***
-This instruction is provided with three registers(R, S & T), the result of **bitwise XOR-ing** S and T is stored in R
+This instruction is provided with three registers(R, S & T), the result of **bitwise XOR-ing** S and T is stored in R<br>
 **A *ROTATE***
-This instruction is provided with a register and a bit pattern in **hexa**, the register is **bitwise rotated** according to the given bit pattern
+This instruction is provided with a register and a bit pattern in **hexa**, the register is **bitwise rotated** according to the given bit pattern<br>
 **B *Jump***
-This instruction is provided with a register and memory address, if the value in the register **equals** register 0, the program counter jumps to the given memory address
+This instruction is provided with a register and memory address, if the value in the register **equals** register 0, the program counter jumps to the given memory address<br>
 **C *Halt***
-When reaching this instruction, the machine is signaled to **stop** executing the program
+When reaching this instruction, the machine is signaled to **stop** executing the program<br>
 **D *Jump***
 This instruction is provided with a register and memory address, if the value in the register is **strictly less than** register 0, the program counter jumps to the given memory address <br><br>
 
